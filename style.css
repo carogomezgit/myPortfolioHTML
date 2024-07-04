@@ -1,0 +1,195 @@
+/* Body and header here */
+body{
+    background-color: rgb(207, 103, 0);
+    background-image: url(imgs/bg_main.jpg);
+    background-repeat: initial;
+    background-size: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    z-index: 1000;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+    background-color: rgb(253, 190, 132);
+    line-height: 30px;
+}
+
+header a{
+    text-decoration: none;
+    color: #000000;
+}
+
+header ul{
+    list-style: none;
+    text-align: center;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+}
+
+header ul li{
+    margin: 22px;
+}
+
+header img{
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+/* Introduction box goes here */
+section{
+    font-weight: bold;
+    text-align: center;
+    width: auto;
+    padding: 15px;
+}
+
+.box{
+    padding: 1px;
+    background: rgba(255, 255, 255, 0.7)
+}
+
+.box p{
+    margin: 2%;
+    font-size: 20px;
+    color: #000000;
+}
+
+section h1{
+    margin-top: 120px;
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(194, 130, 106);
+}
+
+
+/* Infonav style goes here */
+
+.infonav h2{
+    font-weight: bold;
+    color: rgb(150, 116, 104);
+}
+
+.infonav p{
+    font-size: 20px;
+}
+
+.infonav ul{
+    list-style: none;
+    font-size: 17px;
+}
+
+/* Other information */
+.infonav #nav1{
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    margin: 50px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.7)
+}
+
+.infonav #nav1 img{
+    align-self: center;
+    height: 60%;
+    width: 60%;
+}
+
+/* Works */
+.infonav #nav2{
+    text-align: center;
+    font-weight: bold;
+    margin: 50px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.7)   
+}
+
+.infonav #nav2 #carouselExampleAutoplaying{
+    margin: auto;
+    height: 40%;
+    width: 40%; 
+}
+
+
+/* Skills */
+.infonav #nav3{
+    text-align: center;
+    font-weight: bold;
+    margin: 50px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.7)   
+}
+
+.infonav #nav3 ul{
+    padding: 0;
+}
+
+.infonav #nav3 img{
+    align-self: center;
+    height: 20%;
+    width: 20%;   
+}
+
+/* Soft Skills */
+.infonav #nav4{
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.7)   
+}
+
+.infonav #nav4 ul{
+    padding: 0;
+}
+
+.infonav #nav4 img{
+    align-self: center;
+    height: 20%;
+    width: 20%; 
+}
+
+/* Hobbies */
+.infonav #nav5{
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.7)   
+}
+
+.infonav #nav5 #carouselExampleAutoplaying1{
+    margin: auto;
+    height: 30%;
+    width: 30%;
+}
+
+
+/* Footer goes here */
+footer{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(237, 196, 158);
+    line-height: 20px;
+}
+
+footer p{
+    margin: 5px;
+    font-size: 13px;
+}
+
+footer .h6{
+    font-size: 10px;
+}
+
